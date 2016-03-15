@@ -6,3 +6,4 @@ create table history
  foreign key (logint) references users(LOGINt),
  foreign key (Email) references users(EMAIL)
  )
+select * from history
